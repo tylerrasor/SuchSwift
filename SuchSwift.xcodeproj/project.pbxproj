@@ -10,6 +10,8 @@
 		CE8AD370193E6A810029B15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AD36F193E6A810029B15D /* AppDelegate.swift */; };
 		CE8AD372193E6A810029B15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8AD371193E6A810029B15D /* Images.xcassets */; };
 		CE8AD37E193E6A810029B15D /* SuchSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AD37D193E6A810029B15D /* SuchSwiftTests.swift */; };
+		CE8AD38A193E6AAF0029B15D /* SSWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AD389193E6AAF0029B15D /* SSWViewController.swift */; };
+		CE8AD38C193E6ABC0029B15D /* SSWData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AD38B193E6ABC0029B15D /* SSWData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 		CE8AD377193E6A810029B15D /* SuchSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuchSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8AD37C193E6A810029B15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8AD37D193E6A810029B15D /* SuchSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuchSwiftTests.swift; sourceTree = "<group>"; };
+		CE8AD389193E6AAF0029B15D /* SSWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSWViewController.swift; sourceTree = "<group>"; };
+		CE8AD38B193E6ABC0029B15D /* SSWData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSWData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		CE8AD361193E6A810029B15D = {
 			isa = PBXGroup;
 			children = (
+				CE8AD389193E6AAF0029B15D /* SSWViewController.swift */,
+				CE8AD38B193E6ABC0029B15D /* SSWData.swift */,
 				CE8AD36C193E6A810029B15D /* SuchSwift */,
 				CE8AD37A193E6A810029B15D /* SuchSwiftTests */,
 				CE8AD36B193E6A810029B15D /* Products */,
@@ -200,6 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8AD38C193E6ABC0029B15D /* SSWData.swift in Sources */,
+				CE8AD38A193E6AAF0029B15D /* SSWViewController.swift in Sources */,
 				CE8AD370193E6A810029B15D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
